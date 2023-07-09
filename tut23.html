@@ -6,40 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigation</title>
     <style>
-        .navbar{
-            background-color:black;
+        .navbar {
+            background-color: rgb(103, 100, 100);
+            border-radius: 30px;
+            border: 2px solid #e93434;
+            
+            
+
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+            border: 2px solid #e93434;
             border-radius: 30px;
         }
-        .navbar ul{
-            overflow: auto;
-        }
-        .navbar li{
-            float:left;
-            list-style:none;
-           
+
+        .navbar li {
+            float: left;
+            list-style: none;
+
             padding: 12px 28px;
         }
-    .navbar li a{
-        color: white;
-        text-decoration: none;
-        padding: 3px 3px;
-    }
-        .navbar li a:hover{
-        color:red;
-      
-    }
-    .search{
-        float: right;
-        color: white;
-        padding: 8px 30px;
-    }
-    .navbar input{
-        border: 2px solid black;
-        border-radius: 14px;
-        padding: 3px 17px;
-        width: 200px;
 
-    }
+        .navbar li a {
+            color: rgb(103, 232, 38);
+            text-decoration: none;
+            padding: 3px 3px;
+        }
+
+        .navbar li a:hover {
+            color: red;
+
+        }
+
+        .search {
+            float: right;
+            color: rgb(238, 16, 16);
+            padding: 8px 30px;
+        }
+
+        .navbar input {
+            border: 2px solid rgb(210, 191, 191);
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 200px;
+
+        }
     </style>
 </head>
 
@@ -52,9 +65,9 @@
                 <li><a href="">Services</a></li>
                 <li><a href="">Contact Us</a></li>
                 <div class="search">
-                <input type="search" name="search" id="search" placeholder="search this website">
+                    <input type="search" name="search" id="search" placeholder="search this website">
                 </div>
-                 
+
             </ul>
         </nav>
     </header>
